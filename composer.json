@@ -2,6 +2,7 @@
     "name": "krish033/otpfy",
     "description": "Otp login for lazydev",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Krish033\\Otpfy\\": "src/"
