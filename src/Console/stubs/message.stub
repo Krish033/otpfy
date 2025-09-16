@@ -1,0 +1,30 @@
+<?php
+
+namespace DummyNamespace;
+
+use Krish033\Otpfy\Contracts\Netty;
+
+class DummyClass implements Netty
+{
+
+
+
+    /**
+    * DLT Template ID, get the approved DLT Message Template
+    */
+    public function template(): string
+    {
+        return '';
+    }
+
+
+
+
+    /**
+    * The message body, which should be approved by DLT
+    */
+    public function message(): string
+    {
+        return 'say hii to {{netty}}!';
+    }
+}
